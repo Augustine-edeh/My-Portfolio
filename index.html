@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- || BOOTSTRAP CSS-CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- || BOOTSTRAP ICONS-CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- || FONT-AWESOME KIT -->
+    <script
+      src="https://kit.fontawesome.com/aec20410c4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- || DEFAULT CSS SOURCE LINK -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Augustine Edeh</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg" id="nav">
+        <!-- || NAV LINKS -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="Images/React.js logo (Augustine).png"
+              alt="Logo"
+              width="150"
+              height="75"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+
+          <!-- BOOTSTRAP NAV/MENU TOGGLE BUTTON (FOR MOBILE DEVICES) -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" aria-current="page" href="#intro">About</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#featured">Featured</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+
+            <div class="navbar-nav ms-auto">
+              <a
+                class="nav-link bi bi-github"
+                href="https://github.com/Augustine-edeh"
+              ></a>
+              <a
+                class="nav-link bi bi-twitter"
+                href="https://twitter.com/Augustine_edeh"
+              ></a>
+              <a class="nav-link bi bi-instagram" href="#"></a>
+              <a
+                class="nav-link bi bi-linkedin"
+                href="https://www.linkedin.com/in/augustine-edeh/"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- || DISPLAY PICTURE SECTION-->
+      <section class="display-picture" id="about">
+        <div class="dp-container">
+          <img
+            src="Images/image.png"
+            alt="Display picture"
+            class="img-fluid rounded-circle"
+            height="250"
+            width="250"
+          />
+        </div>
+      </section>
+
+      <!-- || INTRO SECTION -->
+      <section class="intro">
+        <div class="intro-sentence">
+          <span class="intro-headline">Hey there,</span><br />
+          I'm <span class="first-name">Augustine,</span> <br />
+          an advancing self taught
+          <span class="stack">FrontEnd </span> developer with a knack for tech.
+          It's good to have you here!
+        </div>
+      </section>
+
+      <!-- || PROJECTS SECTION -->
+      <section class="projects" id="projects">
+        <h1>PROJECTS</h1>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active sliders"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              class="sliders"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              class="sliders"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="Images/Project 1.png"
+                class="d-block w-100"
+                alt="Project 1"
+              />
+              <div class="carousel-caption d-none d-md-block c-caption">
+                <h5 style="color: red">Project 1</h5>
+                <p style="color: red">
+                  A simple Digital clock with Date Feature
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Images/Project 1.png"
+                class="d-block w-100"
+                alt="Project 2"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: green">Project 2</h5>
+                <p style="color: green">A Simple car speedometer simulator</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Images/Project 1.png"
+                class="d-block w-100"
+                alt="Project 3"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: black">Project 3</h5>
+                <p style="color: black">
+                  Simple arithmetics calculator project
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon controller"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon controller"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- || CONTACT SECTION -->
+      <section class="contact-section" id="contact">
+        <h2 class="form-heading contact-form-heading">
+          Want to get in touch? <br />
+          Drop me a line!
+        </h2>
+        <p id="emailHelp" class="form-text emailHelp-text">
+          I'll never share your details with anyone else.
+        </p>
+        <form action="" class="contact-form">
+          <div class="contact-form-divs">
+            <label for="name" class="contact-form-labels form-label"
+              >Name</label
+            >
+            <br />
+            <input
+              class="inputs-cells form-control form-control-lg"
+              id="name"
+              type="text"
+              placeholder="Enter name"
+              aria-describedby="emailHelp"
+            />
+          </div>
+
+          <div class="contact-form-divs">
+            <label for="email" class="contact-form-labels form-label"
+              >Email</label
+            >
+            <br />
+            <input
+              class="inputs-cells form-control form-control-lg"
+              id="email"
+              type="email"
+              placeholder="Enter Email"
+              aria-describedby="emailHelp"
+              required
+            />
+          </div>
+
+          <div class="contact-form-divs">
+            <label for="message" class="contact-form-labels">Message</label>
+            <br />
+            <textarea
+              class="inputs-cells form-control form-control-lg"
+              name=""
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Leave message here..."
+            ></textarea>
+          </div>
+        </form>
+
+        <!-- || FIND A WAY TO ALIGN THIS SUBMIT BUTTON TO THE LEFT (JUST DIRECTLY BELOW THE LEFT EDGE OF THE TEXTAREA ELEMENT) AND FIND A WAY TO MAKE THIS BUTTON ACT AS THE SUBMIT BUTTON FOR THE CONTACT FORM WITHOUT (WITH CORRECT POSITIONING AS DESCRIBED ABOVE) -->
+        <button class="btn btn-dark py-3 px-4" type="submit">SUBMIT</button>
+      </section>
+    </main>
+
+    <!-- || FOOTER SECTION -->
+    <footer>
+      <section class="footer">
+        <div class="col-1">
+          <h3>USEFUL LINKS</h3>
+          <a href="#nav">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#featured">Featured</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="col-2">
+          <h3>NEWSLETTER</h3>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter Email Address" required />
+            <br />
+            <button type="submit">SUBSCRIBE NOW</button>
+          </form>
+        </div>
+        <div class="col-3">
+          <h3>SOCIALS</h3>
+          <div class="social-icons">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- || COPYRIGHT SECTION -->
+      <section class="copyright">
+        Designed by Augustine Edeh | &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        All Rights Reserved
+      </section>
+    </footer>
+
+    <script src="main.js"></script>
+    <!-- || BOOTSTRAP JS-CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

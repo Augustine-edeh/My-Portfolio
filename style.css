@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Padauk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+
+/* || RESET (REMOVING DEFAULT STYLES)  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* || GENERAL STYLES */
+body {
+  font: 1.5rem "Nunito", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header,
+nav,
+main,
+footer {
+  display: grid;
+  place-content: center;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+header,
+footer {
+  position: sticky;
+  background: #1e293b;
+  color: whitesmoke;
+}
+nav {
+  background-color: white;
+  color: white;
+  padding: 0.5rem;
+  border-bottom: 2px solid #000;
+}
+main {
+  flex-grow: 1;
+}
+#navbarNavAltMarkup > div > a:hover {
+  color: #000;
+  border-bottom: 1.5px solid #000;
+}
+
+.bi:hover {
+  font-size: 2rem;
+}
+.display-picture {
+  margin-top: 2.5rem;
+  margin-bottom: 0px;
+  clip-path: circle(90%);
+}
+.intro {
+  text-align: left;
+  padding: 1.5rem 2rem;
+  width: 52rem;
+  margin: 2.5rem auto 0 auto;
+}
+.intro-headline {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.first-name {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: rgb(29, 148, 29);
+}
+.stack {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  font-family: cursive;
+  color: #043379;
+}
+.projects {
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  background-color: antiquewhite;
+  clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 100%);
+}
+.projects > h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 2rem;
+}
+#carouselExampleCaptions {
+  padding: 0 5rem;
+}
+.carousel-indicators {
+  width: 15rem;
+  bottom: -3rem;
+  background-color: red;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sliders {
+  /* || CHECK FOR THIS IT'S NOT WORKING FOR ANY ELEMENT */
+  background-color: purple;
+  color: blue;
+  height: 3rem;
+}
+.controller {
+  background-color: black;
+  opacity: 0.5;
+}
+.contact-section {
+  padding: 80px 0 90px 0;
+  margin: 5rem;
+  padding: 5rem;
+  background-color: aliceblue;
+}
+.contact-form-heading {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.emailHelp-text {
+  color: green;
+  text-align: left;
+  margin: 2rem 0 3rem 0;
+}
+.contact-form {
+  margin-bottom: 2rem;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.contact-form-divs {
+  text-align: left;
+  padding: 2px 0;
+  font-family: "Montserrat", sans-serif;
+}
+.contact-section > button {
+  border-radius: 0px;
+}
+#message {
+  height: 400px;
+}
+.footer {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  padding: 4.5% 5%;
+  color: #efefef;
+  display: flex;
+}
+.footer div {
+  text-align: center;
+}
+.footer .col-1 {
+  text-align: left;
+}
+.col-2 {
+  flex-grow: 2;
+}
+.footer div h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.col-1 a {
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.newsletter-form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+.newsletter-form button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+.social-icons i:hover {
+  font-size: 2.5rem;
+}
+.bi-github {
+  color: #000;
+}
+.fa-github:hover {
+  color: #fff;
+}
+.fa-twitter:hover,
+.bi-twitter {
+  color: #1da1f2;
+}
+.fa-instagram:hover,
+.bi-instagram {
+  color: #fb3958;
+}
+.fa-linkedin:hover,
+.bi-linkedin {
+  color: #0077b5;
+}
+.copyright {
+  margin: 1.2rem 0 1rem 0;
+}
