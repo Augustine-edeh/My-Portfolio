@@ -164,10 +164,13 @@ main {
   letter-spacing: 1px;
 }
 .col-1 a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: #efefef;
   margin-bottom: 10px;
+}
+.col-1 a:hover {
+  border-bottom: 1.5px solid #fff;
 }
 .newsletter-form input {
   width: 400px;
@@ -198,6 +201,8 @@ main {
 }
 .social-icons i:hover {
   font-size: 2.5rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1.5px solid #fff;
 }
 .bi-github {
   color: #000;
