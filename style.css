@@ -145,27 +145,32 @@ main {
 .footer {
   font-family: "Poppins", sans-serif;
   width: 100%;
-  padding: 4.5% 5%;
+  padding: 1rem;
   color: #efefef;
   display: flex;
 }
 .footer div {
+  /* background-color: red; */
   text-align: center;
+  width: auto;
 }
 .footer .col-1 {
-  /* text-align: left; */
+  /* background-color: red; */
+  /* width: 10rem; */
 }
 .col-2 {
   flex-grow: 2;
 }
 .footer div h3 {
-  font-weight: 300;
+  /* font-weight: 300; */
   margin-bottom: 30px;
   letter-spacing: 1px;
 }
 .col-1 a {
-  display: inline-block;
-  text-decoration: none;
+  /* display: inline-block; */
+  /* display: block; */
+  /* list-style: none; */
+  /* text-decoration: none; */
   color: #efefef;
   margin-bottom: 10px;
 }
