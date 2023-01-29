@@ -154,7 +154,7 @@ main {
   list-style: none;
   padding: 0 3rem;
   /* margin-top: -5rem; */
-  background-color: yellow;
+  /* background-color: yellow; */
   /* display: inline-block; */
 
   font-size: 1.5rem;
@@ -210,7 +210,7 @@ li {
   /* border: none; */
 }
 .newsletter-form {
-  background-color: red;
+  /* background-color: red; */
   /* display: grid;
   height: 78%;
   place-content: center; */
@@ -239,6 +239,11 @@ li {
   /* font-size: 220px; */
   margin: 10px;
   cursor: pointer;
+  display: block;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
 }
 .social-icons i:hover {
   /* font-size: 2.5rem; */
