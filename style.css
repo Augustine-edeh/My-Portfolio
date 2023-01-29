@@ -201,14 +201,19 @@ li {
   border-bottom: 1.5px solid #fff;
 }
 .newsletter-form input {
-  width: 400px;
-  height: 45px;
+  width: 30rem;
+  height: 3.5rem;
   border-radius: 4px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  outline: none;
-  border: none;
+  margin: 1.5rem auto 0;
+  /* outline: none; */
+  /* border: none; */
+}
+.newsletter-form {
+  background-color: red;
+  /* display: grid;
+  height: 78%;
+  place-content: center; */
 }
 .newsletter-form button {
   background-color: transparent;
@@ -217,7 +222,9 @@ li {
   border-radius: 30px;
   padding: 10px 30px;
   /* font-size: 15px; */
+  /* width: 12rem; */
   cursor: pointer;
+  /* margin: auto; */
 }
 .newsletter-form button:hover {
   color: #1e293b;
