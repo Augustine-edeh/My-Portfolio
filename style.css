@@ -152,9 +152,15 @@ main {
 }
 .footer ul {
   list-style: none;
-  /* background-color: yellow; */
-  display: inline;
+  padding: 0 3rem;
+  /* margin-top: -5rem; */
+  background-color: yellow;
+  /* display: inline-block; */
+
   font-size: 1.5rem;
+}
+li {
+  margin-bottom: 15px;
 }
 .footer ul a {
   text-decoration: none;
@@ -183,13 +189,13 @@ main {
 .footer div h3 {
   font-weight: 900 !important;
   color: yellow;
-  /* margin-bottom: 1rem; */
+  /* margin-bottom: 10rem; */
   letter-spacing: 1px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 .col-1 a {
   color: #efefef;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 .col-1 a:hover {
   border-bottom: 1.5px solid #fff;
@@ -214,6 +220,7 @@ main {
   cursor: pointer;
 }
 .social-icons {
+  font-size: 1.5rem;
   margin-top: 30px;
 }
 .social-icons i {
