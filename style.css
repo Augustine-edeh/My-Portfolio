@@ -11,7 +11,8 @@
 
 /* || GENERAL STYLES */
 body {
-  font: 1.5rem "Nunito", sans-serif;
+  font-size: 1.5rem;
+  font-family: "Nunito", sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -44,7 +45,6 @@ main {
   color: #000;
   border-bottom: 1.5px solid #000;
 }
-
 .bi:hover {
   font-size: 2rem;
 }
@@ -144,10 +144,20 @@ main {
 }
 .footer {
   font-family: "Poppins", sans-serif;
-  width: 100%;
+  font-size: 1rem;
+  /* width: 100%; */
   padding: 1rem;
   color: #efefef;
   display: flex;
+}
+.footer ul {
+  list-style: none;
+  /* background-color: yellow; */
+  display: inline;
+  font-size: 1.5rem;
+}
+.footer ul a {
+  text-decoration: none;
 }
 .footer div {
   /* background-color: red; */
@@ -158,19 +168,26 @@ main {
   /* background-color: red; */
   /* width: 10rem; */
 }
+.col-1 {
+  background-color: red;
+}
+.col-2 {
+  background-color: green;
+}
+.col-3 {
+  background-color: rebeccapurple;
+}
 .col-2 {
   flex-grow: 2;
 }
 .footer div h3 {
-  /* font-weight: 300; */
-  margin-bottom: 30px;
+  font-weight: 900 !important;
+  color: yellow;
+  /* margin-bottom: 1rem; */
   letter-spacing: 1px;
+  font-weight: bold;
 }
 .col-1 a {
-  /* display: inline-block; */
-  /* display: block; */
-  /* list-style: none; */
-  /* text-decoration: none; */
   color: #efefef;
   margin-bottom: 10px;
 }
@@ -193,19 +210,19 @@ main {
   color: #fff;
   border-radius: 30px;
   padding: 10px 30px;
-  font-size: 15px;
+  /* font-size: 15px; */
   cursor: pointer;
 }
 .social-icons {
   margin-top: 30px;
 }
 .social-icons i {
-  font-size: 22px;
+  /* font-size: 220px; */
   margin: 10px;
   cursor: pointer;
 }
 .social-icons i:hover {
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
   padding-bottom: 0.8rem;
   border-bottom: 1.5px solid #fff;
 }
