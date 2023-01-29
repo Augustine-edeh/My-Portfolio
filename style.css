@@ -175,13 +175,13 @@ li {
   /* width: 10rem; */
 }
 .col-1 {
-  background-color: red;
+  /* background-color: red; */
 }
 .col-2 {
-  background-color: green;
+  /* background-color: green; */
 }
 .col-3 {
-  background-color: rebeccapurple;
+  /* background-color: rebeccapurple; */
 }
 .col-2 {
   flex-grow: 2;
@@ -218,6 +218,11 @@ li {
   padding: 10px 30px;
   /* font-size: 15px; */
   cursor: pointer;
+}
+.newsletter-form button:hover {
+  color: #1e293b;
+  background-color: #fff;
+  /* border: none; */
 }
 .social-icons {
   font-size: 1.5rem;
