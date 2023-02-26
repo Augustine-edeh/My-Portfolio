@@ -14,8 +14,8 @@ body {
   font-size: 1.5rem;
   font-family: "Nunito", sans-serif;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 header,
 nav,
@@ -48,16 +48,33 @@ main {
 nav .bi:hover {
   font-size: 2rem;
 }
+.hero {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  min-height: 95vh;
+  padding: 0 2rem;
+}
 .display-picture {
-  margin-top: 2.5rem;
-  margin-bottom: 0px;
-  clip-path: circle(90%);
+  /* margin-top: 2.5rem; */
+  /* margin-bottom: 0px; */
+  /* clip-path: circle(90%); */
+}
+.dp-container {
+  display: grid;
+  place-content: center;
+  background: yellow;
+  width: 35%;
 }
 .intro {
   text-align: left;
-  padding: 1.5rem 2rem;
-  width: 52rem;
-  margin: 2.5rem auto 0 auto;
+  background: red;
+  /* padding: 1.5rem 2rem; */
+  /* width: 52rem; */
+  width: 50%;
+  /* margin: 2.5rem auto 0 auto; */
 }
 .intro-headline {
   font-size: 1.5rem;
