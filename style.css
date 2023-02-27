@@ -54,7 +54,7 @@ nav .bi:hover {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  min-height: 95vh;
+  min-height: 100vh;
   padding: 0 2rem;
 }
 .display-picture {
@@ -84,13 +84,13 @@ nav .bi:hover {
   font-weight: 900;
 }
 .first-name {
-  font-size: 2.5rem;
+  font-size: 3.7rem;
   font-weight: bolder;
   text-transform: uppercase;
   color: rgb(29, 148, 29);
 }
 .stack {
-  font-size: 1.7rem;
+  font-size: 3rem;
   font-weight: bolder;
   font-family: cursive;
   color: #043379;
