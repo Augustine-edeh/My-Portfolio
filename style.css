@@ -154,12 +154,18 @@ nav .bi:hover {
 }
 .project-item {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   background: #0077b5;
   width: 100rem;
   padding: 2rem 0;
+}
+
+.project-sect div:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+.project-sect div:nth-of-type(even) .project-description {
+  margin-right: -5%;
 }
 /* .project-image__conatainer {
   padding: 2rem;
