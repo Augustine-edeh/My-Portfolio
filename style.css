@@ -167,18 +167,6 @@ nav .bi:hover {
 .project-sect div:nth-of-type(even) .project-description {
   margin-right: -5%;
 }
-/* .project-image__conatainer {
-  padding: 2rem;
-  background: red;
-  height: 30rem;
-  width: 50rem;
-} */
-/* .project-image__conatainer img {
-  height: 100%;
-  width: 100%;
-  object-fit: fill;
-  border-radius: 1rem;
-} */
 .project-description {
   width: 30rem;
   /* height: 15rem; */
