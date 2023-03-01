@@ -14,8 +14,6 @@ body {
   font-size: 1.5rem;
   font-family: "Nunito", sans-serif;
   min-height: 100vh;
-  /* display: flex;
-  flex-direction: column; */
 }
 header,
 nav,
@@ -58,25 +56,17 @@ nav .bi:hover {
   padding: 0 2rem;
 }
 .display-picture {
-  /* margin-top: 2.5rem; */
-  /* margin-bottom: 0px; */
-  /* clip-path: circle(90%); */
 }
 .dp-container {
   display: grid;
   place-content: center;
-  /* background: yellow; */
   width: 35%;
 }
 .intro {
   text-align: left;
-  /* background: red; */
   padding-left: 2.5rem;
   font-size: 2.1rem;
-  /* padding: 1.5rem 2rem; */
-  /* width: 52rem; */
   width: 50%;
-  /* margin: 2.5rem auto 0 auto; */
 }
 .intro-headline {
   font-size: 1.5rem;
@@ -150,7 +140,6 @@ nav .bi:hover {
   background: #d6d6d680;
   padding: 2rem 0;
   gap: 2rem;
-  /* height: 100vh; */
 }
 .project-item {
   display: flex;
@@ -169,17 +158,14 @@ nav .bi:hover {
 }
 .project-description {
   width: 30rem;
-  /* height: 15rem; */
   background: #02537ed0;
   border-radius: 0.6rem;
-  /* margin-top: -5rem; */
   margin-left: -5%;
   box-shadow: 0 0 20px #00000048;
   padding: 2rem;
   z-index: 2;
 }
 .project-description__buttons {
-  /* background: red; */
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -209,7 +195,6 @@ nav .bi:hover {
 .footer {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
-  /* width: 100%; */
   padding: 1.5rem 1rem 1rem 1rem;
   color: #efefef;
   display: flex;
@@ -217,9 +202,6 @@ nav .bi:hover {
 .footer ul {
   list-style: none;
   padding: 0 3rem;
-  /* margin-top: 1.5rem; */
-  /* background-color: yellow; */
-  /* display: inline-block; */
   font-size: 1.2rem;
 }
 li {
@@ -229,22 +211,16 @@ li {
   text-decoration: none;
 }
 .footer div {
-  /* background-color: red; */
   text-align: center;
   width: auto;
 }
 .footer .col-1 {
-  /* background-color: red; */
-  /* width: 10rem; */
 }
 .col-1 {
-  /* background-color: red; */
 }
 .col-2 {
-  /* background-color: green; */
 }
 .col-3 {
-  /* background-color: rebeccapurple; */
 }
 .col-2 {
   flex-grow: 2;
@@ -255,11 +231,9 @@ li {
   /* color: yellow; */
   margin-bottom: 2.5rem;
   letter-spacing: 1px;
-  /* font-weight: bold; */
 }
 .col-1 a {
   color: #efefef;
-  /* margin-bottom: 10px; */
 }
 .col-1 a:hover {
   border-bottom: 1.5px solid #fff;
@@ -270,15 +244,8 @@ li {
   border-radius: 4px;
   text-align: center;
   margin: auto;
-  /* margin: 1.5rem auto 0; */
-  /* outline: none; */
-  /* border: none; */
 }
 .newsletter-form {
-  /* background-color: red; */
-  /* display: grid;
-  height: 78%;
-  place-content: center; */
 }
 .newsletter-form button {
   background-color: transparent;
@@ -286,22 +253,16 @@ li {
   color: #fff;
   border-radius: 30px;
   padding: 10px 30px;
-  /* font-size: 15px; */
-  /* width: 12rem; */
   cursor: pointer;
-  /* margin: auto; */
 }
 .newsletter-form button:hover {
   color: #1e293b;
   background-color: #fff;
-  /* border: none; */
 }
 .social-icons {
   font-size: 1.5rem;
-  /* margin-top: 30px; */
 }
 .social-icons i {
-  /* font-size: 220px; */
   margin: 10px;
   cursor: pointer;
   display: block;
@@ -311,8 +272,6 @@ li {
   text-decoration: none;
 }
 .social-icons i:hover {
-  /* font-size: 2.5rem; */
-  /* padding-bottom: 0.8rem; */
   border-bottom: 0.5px solid #fff;
 }
 .bi-github {
@@ -342,9 +301,6 @@ li {
 }
 
 @media (max-width: 412px) {
-  /* body {
-    background: red;
-  } */
   .hero {
     flex-direction: column;
     justify-content: center;
@@ -363,15 +319,11 @@ li {
     background: yellow;
     width: 100%;
     height: 50%;
-    /* height: 1em; */
   }
   .intro {
     text-align: left;
     background: red;
-    /* padding: 1.5rem 2rem; */
-    /* width: 52rem; */
     width: 100%;
     height: 40%;
-    /* margin: 2.5rem auto 0 auto; */
   }
 }
