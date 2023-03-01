@@ -184,6 +184,10 @@ nav .bi:hover {
   justify-content: center;
   gap: 1rem;
 }
+.project-description__buttons a {
+  color: #fff;
+  text-decoration: none;
+}
 .contact-form {
   margin-bottom: 2rem;
   display: grid;
