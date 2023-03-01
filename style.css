@@ -43,6 +43,10 @@ main {
   color: #000;
   border-bottom: 1.5px solid #000;
 }
+.navabr-links a {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
 nav .bi:hover {
   font-size: 2rem;
 }
