@@ -55,9 +55,13 @@ main {
   border: none;
   border-radius: 2rem;
 }
-.download-cv a {
-  color: #fff;
-  text-decoration: none;
+a .download-cv {
+  /* color: #fff; */
+  /* text-decoration: none; */
+  /* background: red; */
+  font-weight: bold;
+
+  height: 100%;
 }
 nav .bi:hover {
   font-size: 2rem;
