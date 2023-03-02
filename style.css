@@ -60,7 +60,6 @@ a .download-cv {
   /* text-decoration: none; */
   /* background: red; */
   font-weight: bold;
-
   height: 100%;
 }
 nav .bi:hover {
@@ -74,6 +73,11 @@ nav .bi:hover {
   width: 100vw;
   min-height: 100vh;
   padding: 0 2rem;
+}
+.download-cv-2 {
+  display: block;
+  background: red;
+  margin-top: 5rem;
 }
 .display-picture {
 }
