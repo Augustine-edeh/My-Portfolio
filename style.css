@@ -50,17 +50,15 @@ main {
 .navbar-links {
   margin: 0 auto;
 }
-.download-cv {
+.download-cv button,
+.download-cv-2 button {
   padding: 1.1rem;
   border: none;
   border-radius: 2rem;
-}
-a .download-cv {
-  /* color: #fff; */
-  /* text-decoration: none; */
-  /* background: red; */
   font-weight: bold;
-  height: 100%;
+}
+.download-cv-2 {
+  display: none;
 }
 nav .bi:hover {
   font-size: 2rem;
@@ -75,9 +73,7 @@ nav .bi:hover {
   padding: 0 2rem;
 }
 .download-cv-2 {
-  display: block;
-  background: red;
-  margin-top: 5rem;
+  display: none;
 }
 .display-picture {
 }
@@ -349,5 +345,15 @@ li {
     background: red;
     width: 100%;
     height: 40%;
+  }
+}
+@media (max-width: 1000px) {
+  .download-cv {
+    display: none;
+  }
+  .download-cv-2 {
+    background: red;
+    display: block;
+    margin-top: 5rem;
   }
 }
