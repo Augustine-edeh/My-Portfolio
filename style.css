@@ -36,6 +36,16 @@ nav {
   padding: 0.5rem;
   border-bottom: 2px solid #000;
 }
+.Under-Construction_Notice {
+  background-color: rgb(16, 238, 238);
+  color: #000;
+  top: 0;
+  left: 0;
+  padding: 0.4rem;
+}
+.Under-Construction_Notice img {
+  height: 35px;
+}
 main {
   flex-grow: 1;
 }
