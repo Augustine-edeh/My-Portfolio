@@ -1,3 +1,3 @@
 window.onload = () => {
-  alert("Plese note that this site is still under development.\n Thanks");
+  alert("\nSite under development, best viewed on desktop.");
 };
