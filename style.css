@@ -346,13 +346,13 @@ li {
   .dp-container {
     display: grid;
     place-content: center;
-    background: yellow;
+    /* background: yellow; */
     width: 100%;
     height: 50%;
   }
   .intro {
     text-align: left;
-    background: red;
+    /* background: red; */
     width: 100%;
     height: 40%;
   }
@@ -362,7 +362,7 @@ li {
     display: none;
   }
   .download-cv-2 {
-    background: red;
+    /* background: red; */
     display: block;
     margin-top: 5rem;
   }
